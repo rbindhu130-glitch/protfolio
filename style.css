@@ -326,6 +326,7 @@ footer {
 
   .project-img {
     height: 200px;
+    width: 100%;
   }
 
   .btn {
@@ -366,6 +367,7 @@ footer {
 
   .project-img {
     height: 250px;
+    
   }
 }
 
