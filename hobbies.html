@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hobbies | Indhu Ramar</title>
 
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hobbies | Indhu Ramar</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="hobbies.css" />
-  </head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <body>
-    <!-- NAVBAR -->
-    <nav>
-      <div class="container nav_content">
-        <div class="logo">Indhu Ramar</div>
-        <div class="nav_links">
-          <a href="./index.html#skills">Skills</a>
-          <a href="./index.html#projects">Projects</a>
-          <a href="#">Hobbies</a>
-          <a href="./index.html#contact">Contact</a>
-        </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="hobbies.css" />
+
+  <style>
+    /* Achievements heading styling */
+    .achievements_heading {
+      width: 100%;
+      text-align: left;
+      margin: 2rem 0 1rem 0;
+      font-size: 1.8rem;
+      color: #0f172a;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="container nav_content">
+      <div class="logo">Indhu Ramar</div>
+      <div class="nav_links">
+        <a href="./index.html#skills">Skills</a>
+        <a href="./index.html#projects">Projects</a>
+        <a href="#">Hobbies</a>
+        <a href="./index.html#contact">Contact</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- MAIN CONTENT -->
-    <main>
-      <h2>My Hobbies</h2>
-      <p class="subtitle">
-        Things I enjoy doing in my free time that keep me active and creative
-      </p>
+  <main>
+    <h2>My Hobbies</h2>
+    <p class="subtitle">
+      Things I enjoy doing in my free time that keep me active and creative
+    </p>
 
-      <div class="hobby_grid">
-        <div class="hobby_card">
-          <i class="fa-solid fa-volleyball"></i>
-          <h3>Volleyball</h3>
-          <p>
-            Playing volleyball improves my physical fitness, teamwork skills,
-            and helps me stay energetic.
-          </p>
-        </div>
-
-        <div class="hobby_card">
-          <i class="fa-solid fa-plane"></i>
-          <h3>Traveling</h3>
-          <p>
-            Traveling helps me explore new cultures, meet new people, and gain
-            different perspectives.
-          </p>
-        </div>
-
-        <div class="hobby_card">
-          <i class="fa-solid fa-music"></i>
-          <h3>Listening to Music</h3>
-          <p>
-            Music helps me relax, stay focused, and boosts my creativity while
-            working or learning.
-          </p>
-        </div>
+    <div class="hobby_grid">
+      <!-- First 3: Original Hobbies -->
+      <div class="hobby_card">
+        <i class="fa-solid fa-volleyball"></i>
+        <h3>Volleyball</h3>
+        <p>
+          Playing volleyball improves my physical fitness, teamwork skills,
+          and helps me stay energetic.
+        </p>
       </div>
 
-      <!-- BACK TO HOME BUTTON -->
-      <div class="back_home">
-        <a href="./index.html">
-          <i class="fa-solid fa-house"></i> Back to Home
-        </a>
+      <div class="hobby_card">
+        <i class="fa-solid fa-plane"></i>
+        <h3>Traveling</h3>
+        <p>
+          Traveling helps me explore new cultures, meet new people, and gain
+          different perspectives.
+        </p>
       </div>
-    </main>
 
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">&copy; 2026 Indhu Ramar</div>
-    </footer>
-  </body>
+      <div class="hobby_card">
+        <i class="fa-solid fa-music"></i>
+        <h3>Listening to Music</h3>
+        <p>
+          Music helps me relax, stay focused, and boosts my creativity while
+          working or learning.
+        </p>
+      </div>
+
+      <!-- Achievements Section Heading -->
+      <h2 class="achievements_heading">Achievements</h2>
+      
+      <!-- Next 4: Achievements -->
+      <div class="achievement_card">
+        <div class="achievement_img_container">
+          <img src="images/photography.png" alt="Photography Achievement" class="achievement_img" />
+        </div>
+        <div class="achievement_content">
+          <h3>Photography Achievement</h3>
+        </div>
+      </div>
+
+      <div class="achievement_card">
+        <div class="achievement_img_container">
+          <img src="images/coding.png" alt="Coding Achievement" class="achievement_img" />
+        </div>
+        <div class="achievement_content">
+          <h3>Coding Achievement</h3>
+ 
+        </div>
+      </div>
+
+      <div class="achievement_card">
+        <div class="achievement_img_container">
+          <img src="images/reading.png" alt="Reading Achievement" class="achievement_img" />
+        </div>
+        <div class="achievement_content">
+          <h3>Reading Achievement</h3>
+
+        </div>
+      </div>
+
+      <div class="achievement_card">
+        <div class="achievement_img_container">
+          <img src="images/gaming.png" alt="Gaming Achievement" class="achievement_img" />
+        </div>
+        <div class="achievement_content">
+          <h3>Gaming Achievement</h3>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="back_home">
+      <a href="./index.html">
+        <i class="fa-solid fa-house"></i> Back to Home
+      </a>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container">&copy; 2026 Indhu Ramar</div>
+  </footer>
+</body>
+
 </html>

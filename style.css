@@ -319,7 +319,7 @@ footer {
   .grid {
     grid-template-columns: 1fr;
   }
-  .soft_bg img{
+  .soft_bg img {
     width: 100%;
     height: 100px;
   }
@@ -371,7 +371,5 @@ footer {
 
   .project-img {
     height: 250px;
-    
   }
 }
-
